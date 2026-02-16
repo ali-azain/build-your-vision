@@ -11,35 +11,35 @@ const Footer = () => {
               early<span className="text-gradient">build</span>
             </a>
             <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-              B2B SaaS cloud platform for the digitalization of project development in the real estate industry. Development and distribution of software in construction and real estate.
+              Digitale Lösungen für die Projektentwicklung. Effizientere Prozesse für Architekten, Immobilienentwickler und Bauunternehmen.
             </p>
           </div>
 
           {/* Product */}
           <div>
-            <h4 className="font-display font-semibold text-foreground mb-4">Product</h4>
+            <h4 className="font-display font-semibold text-foreground mb-4">Produkt</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#product" className="hover:text-foreground transition-colors">Features</a></li>
-              <li><a href="#how-it-works" className="hover:text-foreground transition-colors">How It Works</a></li>
-              <li><a href="#case-studies" className="hover:text-foreground transition-colors">Case Studies</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Pricing</a></li>
+              <li><a href="/#product" className="hover:text-foreground transition-colors">Funktionen</a></li>
+              <li><a href="/#how-it-works" className="hover:text-foreground transition-colors">Wie es funktioniert</a></li>
+              <li><a href="/#case-studies" className="hover:text-foreground transition-colors">Fallstudien</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Preise</a></li>
             </ul>
           </div>
 
           {/* Company */}
           <div>
-            <h4 className="font-display font-semibold text-foreground mb-4">Company</h4>
+            <h4 className="font-display font-semibold text-foreground mb-4">Unternehmen</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><a href="#about" className="hover:text-foreground transition-colors">About Us</a></li>
+              <li><a href="/about" className="hover:text-foreground transition-colors">Über uns</a></li>
               <li><a href="#" className="hover:text-foreground transition-colors">Blog</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Careers</a></li>
-              <li><a href="#" className="hover:text-foreground transition-colors">Privacy Policy</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Karriere</a></li>
+              <li><a href="#" className="hover:text-foreground transition-colors">Datenschutz</a></li>
             </ul>
           </div>
 
           {/* Contact */}
           <div>
-            <h4 className="font-display font-semibold text-foreground mb-4">Contact</h4>
+            <h4 className="font-display font-semibold text-foreground mb-4">Kontakt</h4>
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li className="flex items-start gap-2">
                 <MapPin size={16} className="text-primary mt-0.5 shrink-0" />
@@ -62,9 +62,9 @@ const Footer = () => {
             © {new Date().getFullYear()} Early Build GmbH. All rights reserved.
           </p>
           <div className="flex items-center gap-6 text-xs text-muted-foreground">
-            <a href="#" className="hover:text-foreground transition-colors">Privacy</a>
-            <a href="#" className="hover:text-foreground transition-colors">Terms</a>
-            <a href="#" className="hover:text-foreground transition-colors">GDPR</a>
+            <a href="#" className="hover:text-foreground transition-colors">Datenschutz</a>
+            <a href="#" className="hover:text-foreground transition-colors">AGB</a>
+            <a href="#" className="hover:text-foreground transition-colors">DSGVO</a>
           </div>
         </div>
       </div>

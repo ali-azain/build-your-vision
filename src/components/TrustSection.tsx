@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { Shield, Users, Lock, RefreshCw } from "lucide-react";
 
 const trustItems = [
-  { icon: Shield, title: "GDPR Compliant", description: "Full data protection compliance for European markets" },
-  { icon: Lock, title: "Enterprise Security", description: "SOC 2 certified with end-to-end encryption" },
-  { icon: Users, title: "Collaborative", description: "Real-time collaboration for teams of any size" },
-  { icon: RefreshCw, title: "Always Up-to-Date", description: "Continuous data updates from official sources" },
+  { icon: Shield, title: "DSGVO-konform", description: "Vollständige Datenschutz-Compliance für europäische Märkte" },
+  { icon: Lock, title: "Unternehmenssicherheit", description: "SOC 2-zertifiziert mit Ende-zu-Ende-Verschlüsselung" },
+  { icon: Users, title: "Kollaborativ", description: "Echtzeit-Zusammenarbeit für Teams jeder Größe" },
+  { icon: RefreshCw, title: "Immer aktuell", description: "Kontinuierliche Datenaktualisierungen aus offiziellen Quellen" },
 ];
 
 const TrustSection = () => {
@@ -17,14 +17,14 @@ const TrustSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mb-16"
+          className="mb-16 text-center"
         >
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-bold mb-4">
-            Secure. Reliable.{" "}
-            <span className="text-gradient">Collaborative.</span>
+            Vertraut von Branchenführern.{" "}
+            <span className="text-gradient">Gebaut für Innovation.</span>
           </h2>
-          <p className="text-muted-foreground text-lg max-w-xl">
-            Built for enterprise-grade real estate workflows with security and compliance at its core.
+          <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-6">
+            Vollmitglied der TUM Venture Labs Built Environment — Treiber der digitalen Transformation im Bau- und Immobilienwesen mit modernster Technologie.
           </p>
         </motion.div>
 

@@ -23,19 +23,19 @@ const CTASection = () => {
 
           <div className="relative z-10">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-display font-bold mb-4">
-              There's nothing you{" "}
-              <span className="text-gradient">can't optimize</span> with Early Build
+              Treffen Sie kritische Entscheidungen{" "}
+              <span className="text-gradient">vor Entwurfsbeginn</span>
             </h2>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-8">
-              Join the leading real estate professionals who are already transforming their project development with AI.
+              Schließen Sie sich führenden Architekten, Entwicklern und Kommunen an, die mit datengestützten Erkenntnissen und BIM beginnen — nicht als nachträglicher Gedanke, sondern von Tag eins an.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button variant="hero" size="lg" className="text-base px-8">
-                Request a Demo
+                Demo anfragen
                 <ArrowRight className="ml-1" size={18} />
               </Button>
               <Button variant="hero-outline" size="lg" className="text-base px-8">
-                Contact Sales
+                Vertrieb kontaktieren
               </Button>
             </div>
           </div>
