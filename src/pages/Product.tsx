@@ -48,24 +48,24 @@ const Product = () => {
                 <div className="relative z-10 max-w-5xl mx-auto text-center px-6">
                     <div className="inline-flex items-center gap-2 bg-card/60 border border-border/50 rounded-full px-4 py-1.5 text-sm text-muted-foreground mb-8 backdrop-blur-sm">
                         <Sparkles size={14} className="text-secondary" />
-                        <span>The all-in-one platform for real estate intelligence</span>
+                        <span>Die All-in-One-Plattform für Immobilienintelligenz</span>
                     </div>
 
                     <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight font-display leading-[1.05]">
-                        <span className="text-foreground">Think it. </span>
-                        <span className="text-gradient">Build it. </span>
-                        <span className="text-foreground">Iterate it.</span>
+                        <span className="text-foreground">Denken Sie es. </span>
+                        <span className="text-gradient">Bauen Sie es. </span>
+                        <span className="text-foreground">Iterieren Sie es.</span>
                     </h1>
 
                     <p className="mt-8 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-                        EarlyBuild combines data analytics, generative design, and AI to empower
-                        real estate developers, investors, and municipalities with digital
-                        solutions for successful project development.
+                        EarlyBuild kombiniert Datenanalyse, generatives Design und KI, um
+                        Immobilienentwicklern, Investoren und Kommunen digitale Lösungen
+                        für eine erfolgreiche Projektentwicklung zu bieten.
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10">
                         <Button variant="hero" size="lg" className="text-base px-8 py-6 rounded-xl">
-                            Get Started Free
+                            Kostenlos starten
                             <ArrowRight className="ml-2 h-4 w-4" />
                         </Button>
                         <Button
@@ -74,13 +74,13 @@ const Product = () => {
                             className="text-base px-8 py-6 rounded-xl border-border/50 bg-card/40 hover:bg-card/60"
                         >
                             <Play className="mr-2 h-4 w-4" />
-                            Watch Demo
+                            Demo ansehen
                         </Button>
                     </div>
 
                     {/* Trusted-by line */}
                     <p className="mt-16 text-xs uppercase tracking-widest text-muted-foreground/60">
-                        Trusted by leading developers & municipalities
+                        Vertraut von führenden Entwicklern & Kommunen
                     </p>
                 </div>
             </section>
@@ -94,12 +94,12 @@ const Product = () => {
                 <div className="max-w-7xl mx-auto relative z-10">
                     <div className="text-center mb-16">
                         <h2 className="text-4xl md:text-5xl font-bold font-display mb-6">
-                            <span className="text-gradient">Visual</span> building
+                            <span className="text-gradient">Visuelles</span> Bauen
                         </h2>
                         <p className="text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed">
-                            Build complex real estate models visually with our intuitive drag-and-drop
-                            interface. Connect data sources, run AI analyses, and generate reports —
-                            all without writing a single line of code.
+                            Erstellen Sie komplexe Immobilienmodelle visuell mit unserer intuitiven Drag-and-Drop-Oberfläche.
+                            Verbinden Sie Datenquellen, führen Sie KI-Analysen durch und generieren Sie Berichte —
+                            alles, ohne eine einzige Zeile Code zu schreiben.
                         </p>
                     </div>
 
@@ -112,20 +112,20 @@ const Product = () => {
                                 {[
                                     {
                                         icon: <Map className="text-primary" size={24} />,
-                                        title: "Location Analysis",
-                                        desc: "Macro & micro location data, demographics, infrastructure scoring",
+                                        title: "Standortanalyse",
+                                        desc: "Makro- & Mikrolagedaten, Demografie, Infrastruktur-Scoring",
                                         color: "from-primary/20 to-primary/5",
                                     },
                                     {
                                         icon: <Cpu className="text-secondary" size={24} />,
-                                        title: "AI Processing",
-                                        desc: "Machine learning models for valuation, risk assessment, trend prediction",
+                                        title: "KI-Verarbeitung",
+                                        desc: "Machine-Learning-Modelle für Bewertung, Risikobewertung, Trendvorhersage",
                                         color: "from-secondary/20 to-secondary/5",
                                     },
                                     {
                                         icon: <Building2 className="text-accent" size={24} />,
-                                        title: "BIM Generation",
-                                        desc: "Automated 3D building information models with cost estimation",
+                                        title: "BIM-Generierung",
+                                        desc: "Automatisierte 3D-Bauwerksdatenmodelle mit Kostenschätzung",
                                         color: "from-accent/20 to-accent/5",
                                     },
                                 ].map((item, i) => (
@@ -163,10 +163,10 @@ const Product = () => {
                     {/* Feature cards row */}
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                         {[
-                            { icon: <Layers size={20} />, title: "BIM Models", desc: "High-resolution digital building models" },
-                            { icon: <Bot size={20} />, title: "AI Analyses", desc: "Automated market & feasibility studies" },
-                            { icon: <BarChart3 size={20} />, title: "Cost Forecasts", desc: "Real-time budget & yield calculations" },
-                            { icon: <Code2 size={20} />, title: "API Access", desc: "Integrate with your existing tools" },
+                            { icon: <Layers size={20} />, title: "BIM-Modelle", desc: "Hochauflösende digitale Gebäudemodelle" },
+                            { icon: <Bot size={20} />, title: "KI-Analysen", desc: "Automatisierte Markt- & Machbarkeitsstudien" },
+                            { icon: <BarChart3 size={20} />, title: "Kostenprognosen", desc: "Echtzeit-Budget- & Renditeberechnungen" },
+                            { icon: <Code2 size={20} />, title: "API-Zugriff", desc: "Integration in Ihre bestehenden Tools" },
                         ].map((card, i) => (
                             <div
                                 key={i}
@@ -190,20 +190,20 @@ const Product = () => {
                     <div className="grid md:grid-cols-2 gap-16 items-center">
                         <div>
                             <h2 className="text-4xl md:text-5xl font-bold font-display mb-6">
-                                <span className="text-gradient">Automate</span> to integrate your workflow
+                                <span className="text-gradient">Automatisieren</span> zur Integration Ihres Workflows
                             </h2>
                             <p className="text-muted-foreground text-lg leading-relaxed mb-8">
-                                Seamlessly connect your existing tools and data sources. EarlyBuild
-                                integrates with CAD systems, GIS platforms, property databases, and
-                                financial software to create a unified project development environment.
+                                Verbinden Sie nahtlos Ihre bestehenden Tools und Datenquellen. EarlyBuild
+                                integriert sich in CAD-Systeme, GIS-Plattformen, Immobiliendatenbanken und
+                                Finanzsoftware, um eine einheitliche Projektentwicklungsumgebung zu schaffen.
                             </p>
 
                             <div className="space-y-4">
                                 {[
-                                    "Connect to 50+ real estate data sources instantly",
-                                    "Bi-directional sync with BIM & CAD software",
-                                    "Automated report generation and distribution",
-                                    "Webhook & API support for custom pipelines",
+                                    "Verbindung zu 50+ Immobiliendatenquellen sofort",
+                                    "Bi-direktionale Synchronisation mit BIM- & CAD-Software",
+                                    "Automatisierte Berichterstellung und Verteilung",
+                                    "Webhook- & API-Support für benutzerdefinierte Pipelines",
                                 ].map((item, i) => (
                                     <div key={i} className="flex items-center gap-3">
                                         <div className="w-6 h-6 rounded-full bg-secondary/10 flex items-center justify-center shrink-0">
@@ -215,7 +215,7 @@ const Product = () => {
                             </div>
 
                             <Button variant="hero" className="mt-8 rounded-xl px-6 py-5">
-                                Explore Integrations
+                                Integrationen erkunden
                                 <ArrowRight className="ml-2 h-4 w-4" />
                             </Button>
                         </div>
@@ -226,15 +226,15 @@ const Product = () => {
                             <div className="relative bg-card/60 border border-border/50 rounded-2xl p-8 backdrop-blur-sm">
                                 <div className="grid grid-cols-3 gap-4">
                                     {[
-                                        { icon: <Database size={28} />, label: "Data API" },
-                                        { icon: <Globe size={28} />, label: "GIS Maps" },
-                                        { icon: <FileText size={28} />, label: "Reports" },
+                                        { icon: <Database size={28} />, label: "Daten API" },
+                                        { icon: <Globe size={28} />, label: "GIS Karten" },
+                                        { icon: <FileText size={28} />, label: "Berichte" },
                                         { icon: <Boxes size={28} />, label: "BIM/CAD" },
-                                        { icon: <TrendingUp size={28} />, label: "Analytics" },
-                                        { icon: <PieChart size={28} />, label: "Finance" },
+                                        { icon: <TrendingUp size={28} />, label: "Analytik" },
+                                        { icon: <PieChart size={28} />, label: "Finanzen" },
                                         { icon: <Shield size={28} />, label: "Compliance" },
                                         { icon: <Cloud size={28} />, label: "Cloud" },
-                                        { icon: <Cpu size={28} />, label: "AI Engine" },
+                                        { icon: <Cpu size={28} />, label: "KI Engine" },
                                     ].map((int, i) => (
                                         <div
                                             key={i}
@@ -258,12 +258,12 @@ const Product = () => {
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-16">
                         <h2 className="text-4xl md:text-5xl font-bold font-display mb-6">
-                            <span className="text-gradient">Thousands</span> of templates to get you started
+                            <span className="text-gradient">Tausende</span> von Vorlagen, um zu starten
                         </h2>
                         <p className="text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed">
-                            Pre-built workflows for every real estate use case — from feasibility
-                            studies and cost calculations to sustainability assessments and urban
-                            planning. Customize to fit your needs.
+                            vorgefertigte Workflows für jeden Immobilien-Anwendungsfall — von Machbarkeitsstudien
+                            und Kostenberechnungen bis hin zu Nachhaltigkeitsbewertungen und Stadtplanung.
+                            Passen Sie es an Ihre Bedürfnisse an.
                         </p>
                     </div>
 
@@ -271,38 +271,38 @@ const Product = () => {
                     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
                         {[
                             {
-                                title: "Feasibility Study",
-                                desc: "Comprehensive project feasibility analysis with automated data collection and AI-driven insights.",
-                                tag: "Popular",
+                                title: "Machbarkeitsstudie",
+                                desc: "Umfassende Projektmachbarkeitsanalyse mit automatisierter Datenerfassung und KI-gestützten Erkenntnissen.",
+                                tag: "Beliebt",
                                 tagColor: "bg-primary/20 text-primary",
                             },
                             {
-                                title: "Location Intelligence",
-                                desc: "Macro & micro location analysis, demographic scoring, infrastructure mapping and trend detection.",
-                                tag: "AI-Powered",
+                                title: "Standortintelligenz",
+                                desc: "Makro- & Mikrolagenanalyse, demografisches Scoring, Infrastrukturkartierung und Trenderkennung.",
+                                tag: "KI-basiert",
                                 tagColor: "bg-secondary/20 text-secondary",
                             },
                             {
-                                title: "Cost Estimation",
-                                desc: "Automated construction cost forecasts based on BIM models, historical data, and market conditions.",
-                                tag: "Finance",
+                                title: "Kostenschätzung",
+                                desc: "Automatisierte Baukostenprognosen basierend auf BIM-Modellen, historischen Daten und Marktbedingungen.",
+                                tag: "Finanzen",
                                 tagColor: "bg-accent/20 text-accent",
                             },
                             {
-                                title: "Generative Design",
-                                desc: "AI-driven building layout generation with optimization for density, sunlight, and regulatory compliance.",
+                                title: "Generatives Design",
+                                desc: "KI-gesteuerte Generierung von Gebäudelayouts mit Optimierung für Dichte, Sonnenlicht und Einhaltung gesetzlicher Vorschriften.",
                                 tag: "Design",
                                 tagColor: "bg-primary/20 text-primary",
                             },
                             {
-                                title: "Portfolio Analysis",
-                                desc: "Multi-asset portfolio performance tracking with risk assessment and optimization recommendations.",
+                                title: "Portfolio-Analyse",
+                                desc: "Leistungsverfolgung von Multi-Asset-Portfolios mit Risikobewertung und Optimierungsempfehlungen.",
                                 tag: "Enterprise",
                                 tagColor: "bg-secondary/20 text-secondary",
                             },
                             {
-                                title: "Sustainability Report",
-                                desc: "ESG compliance reporting, carbon footprint analysis, and green building certification support.",
+                                title: "Nachhaltigkeitsbericht",
+                                desc: "ESG-Compliance-Reporting, CO2-Fußabdruckanalyse und Unterstützung bei der Green-Building-Zertifizierung.",
                                 tag: "ESG",
                                 tagColor: "bg-accent/20 text-accent",
                             },
@@ -328,7 +328,7 @@ const Product = () => {
 
                     <div className="text-center mt-12">
                         <Button variant="outline" className="rounded-xl border-border/50 bg-card/40 hover:bg-card/60 px-8 py-5">
-                            Browse All Templates
+                            Alle Vorlagen durchsuchen
                             <ArrowRight className="ml-2 h-4 w-4" />
                         </Button>
                     </div>
@@ -343,12 +343,12 @@ const Product = () => {
                 <div className="max-w-7xl mx-auto relative z-10">
                     <div className="text-center mb-16">
                         <h2 className="text-4xl md:text-5xl font-bold font-display mb-6">
-                            <span className="text-gradient">Debug</span> & monitor
+                            <span className="text-gradient">Debuggen</span> & Überwachen
                         </h2>
                         <p className="text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed">
-                            Full visibility into every pipeline run. Debug errors instantly, track
-                            execution metrics, and monitor data quality across all your projects
-                            in real time.
+                            Volle Transparenz in jeden Pipeline-Durchlauf. Beheben Sie Fehler sofort, verfolgen Sie
+                            Ausführungsmetriken und überwachen Sie die Datenqualität in all Ihren Projekten
+                            in Echtzeit.
                         </p>
                     </div>
 
@@ -361,16 +361,16 @@ const Product = () => {
                                     <div className="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center">
                                         <Eye size={20} className="text-primary" />
                                     </div>
-                                    <h3 className="text-xl font-bold font-display">Real-time Monitoring</h3>
+                                    <h3 className="text-xl font-bold font-display">Echtzeit-Überwachung</h3>
                                 </div>
 
                                 {/* Simulated dashboard */}
                                 <div className="space-y-3">
                                     {[
-                                        { label: "Data Ingestion", status: "active", value: "2.4k/sec" },
-                                        { label: "AI Models", status: "active", value: "99.8% uptime" },
-                                        { label: "Report Queue", status: "active", value: "12 pending" },
-                                        { label: "API Requests", status: "active", value: "847/min" },
+                                        { label: "Datenaufnahme", status: "active", value: "2.4k/sek" },
+                                        { label: "KI-Modelle", status: "active", value: "99.8% Verfügbarkeit" },
+                                        { label: "Berichtswarteschlange", status: "active", value: "12 ausstehend" },
+                                        { label: "API-Anfragen", status: "active", value: "847/min" },
                                     ].map((metric, i) => (
                                         <div key={i} className="flex items-center justify-between p-3 rounded-lg bg-card/60 border border-border/30">
                                             <div className="flex items-center gap-3">
@@ -392,7 +392,7 @@ const Product = () => {
                                     <div className="w-10 h-10 rounded-xl bg-secondary/10 flex items-center justify-center">
                                         <Bug size={20} className="text-secondary" />
                                     </div>
-                                    <h3 className="text-xl font-bold font-display">Execution Logs</h3>
+                                    <h3 className="text-xl font-bold font-display">Ausführungsprotokolle</h3>
                                 </div>
 
                                 {/* Simulated log view */}
@@ -400,27 +400,27 @@ const Product = () => {
                                     <div className="flex gap-2">
                                         <span className="text-secondary">✓</span>
                                         <span className="text-muted-foreground">12:04:01</span>
-                                        <span className="text-foreground/80">Location data fetched · 2,481 records</span>
+                                        <span className="text-foreground/80">Standortdaten abgerufen · 2.481 Datensätze</span>
                                     </div>
                                     <div className="flex gap-2">
                                         <span className="text-secondary">✓</span>
                                         <span className="text-muted-foreground">12:04:03</span>
-                                        <span className="text-foreground/80">AI valuation model executed · 98.2% confidence</span>
+                                        <span className="text-foreground/80">KI-Bewertungsmodell ausgeführt · 98,2% Konfidenz</span>
                                     </div>
                                     <div className="flex gap-2">
                                         <span className="text-secondary">✓</span>
                                         <span className="text-muted-foreground">12:04:05</span>
-                                        <span className="text-foreground/80">BIM model generated · 3 variants</span>
+                                        <span className="text-foreground/80">BIM-Modell generiert · 3 Varianten</span>
                                     </div>
                                     <div className="flex gap-2">
                                         <span className="text-secondary">✓</span>
                                         <span className="text-muted-foreground">12:04:06</span>
-                                        <span className="text-foreground/80">Cost forecast complete · €2.4M estimate</span>
+                                        <span className="text-foreground/80">Kostenprognose abgeschlossen · 2,4 Mio. € Schätzung</span>
                                     </div>
                                     <div className="flex gap-2">
                                         <span className="text-primary">→</span>
                                         <span className="text-muted-foreground">12:04:07</span>
-                                        <span className="text-foreground/80">Generating PDF report...</span>
+                                        <span className="text-foreground/80">Generiere PDF-Bericht...</span>
                                     </div>
                                 </div>
                             </div>
@@ -436,12 +436,12 @@ const Product = () => {
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-16">
                         <h2 className="text-4xl md:text-5xl font-bold font-display mb-6">
-                            <span className="text-gradient">Deploy</span> and self-host
+                            <span className="text-gradient">Bereitstellen</span> und selbst hosten
                         </h2>
                         <p className="text-muted-foreground text-lg max-w-3xl mx-auto leading-relaxed">
-                            Run EarlyBuild in our secure cloud or deploy on your own
-                            infrastructure. Full data sovereignty with enterprise-grade security
-                            and GDPR compliance built in.
+                            Führen Sie EarlyBuild in unserer sicheren Cloud aus oder stellen Sie es auf Ihrer eigenen
+                            Infrastruktur bereit. Volle Datensouveränität mit Sicherheit auf Unternehmensebene
+                            und eingebauter DSGVO-Konformität.
                         </p>
                     </div>
 
@@ -449,33 +449,33 @@ const Product = () => {
                         {[
                             {
                                 icon: <Cloud size={28} />,
-                                title: "Cloud Hosted",
-                                desc: "Fully managed deployment with 99.9% uptime SLA, automatic updates, and global CDN.",
+                                title: "Cloud-Hosting",
+                                desc: "Vollständig verwaltete Bereitstellung mit 99,9% Verfügbarkeits-SLA, automatischen Updates und globalem CDN.",
                             },
                             {
                                 icon: <Server size={28} />,
-                                title: "Self-Hosted",
-                                desc: "Deploy on your own servers with Docker or Kubernetes. Complete control over your data.",
+                                title: "Selbst gehostet",
+                                desc: "Bereitstellung auf Ihren eigenen Servern mit Docker oder Kubernetes. Volle Kontrolle über Ihre Daten.",
                             },
                             {
                                 icon: <Lock size={28} />,
-                                title: "Enterprise Security",
-                                desc: "SOC 2 compliant, end-to-end encryption, SSO integration, and role-based access control.",
+                                title: "Unternehmenssicherheit",
+                                desc: "SOC 2-konform, Ende-zu-Ende-Verschlüsselung, SSO-Integration und rollenbasierte Zugriffskontrolle.",
                             },
                             {
                                 icon: <Shield size={28} />,
-                                title: "GDPR Compliant",
-                                desc: "Data processing agreements, EU data residency, and complete audit trails built in.",
+                                title: "DSGVO-Konform",
+                                desc: "Auftragsverarbeitungsverträge, EU-Datenresidenz und vollständige Audit-Trails integriert.",
                             },
                             {
                                 icon: <Rocket size={28} />,
-                                title: "Auto Scaling",
-                                desc: "Infrastructure scales automatically with your workload. Pay only for what you use.",
+                                title: "Automatische Skalierung",
+                                desc: "Infrastruktur skaliert automatisch mit Ihrer Arbeitslast. Zahlen Sie nur für das, was Sie nutzen.",
                             },
                             {
                                 icon: <Grid3X3 size={28} />,
-                                title: "Multi-Tenant",
-                                desc: "Isolate projects and teams with multi-tenant architecture. Perfect for agencies.",
+                                title: "Mandantenfähig",
+                                desc: "Isolieren Sie Projekte und Teams mit mandantenfähiger Architektur. Perfekt für Agenturen.",
                             },
                         ].map((item, i) => (
                             <div
@@ -506,18 +506,17 @@ const Product = () => {
 
                 <div className="relative z-10 max-w-4xl mx-auto text-center">
                     <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold font-display mb-6 leading-tight">
-                        There&apos;s nothing you<br />
-                        can&apos;t <span className="text-gradient">automate</span> with<br />
-                        <span className="text-gradient">EarlyBuild</span>
+                        Es gibt nichts, was Sie mit<br />
+                        <span className="text-gradient">EarlyBuild</span> nicht <span className="text-gradient">automatisieren</span> können
                     </h2>
                     <p className="text-muted-foreground text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-                        From data acquisition to building design to portfolio management —
-                        accelerate every step of your real estate development lifecycle.
+                        Von der Datenerfassung über das Gebäudedesign bis hin zum Portfoliomanagement —
+                        beschleunigen Sie jeden Schritt Ihres Immobilienentwicklungszyklus.
                     </p>
 
                     <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
                         <Button variant="hero" size="lg" className="text-base px-10 py-6 rounded-xl">
-                            Start Building Today
+                            Heute anfangen zu bauen
                             <ArrowRight className="ml-2 h-4 w-4" />
                         </Button>
                         <Button
@@ -525,7 +524,7 @@ const Product = () => {
                             size="lg"
                             className="text-base px-10 py-6 rounded-xl border-border/50 bg-card/40 hover:bg-card/60"
                         >
-                            Talk to Sales
+                            Vertrieb kontaktieren
                         </Button>
                     </div>
                 </div>

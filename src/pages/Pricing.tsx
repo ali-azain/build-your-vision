@@ -21,7 +21,7 @@ const Pricing = () => {
                     <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent"></div>
                 </div>
                 <div className="relative z-10 text-center mt-16">
-                    <h1 className="text-6xl md:text-7xl font-bold text-foreground drop-shadow-lg tracking-tight font-display">Performance</h1>
+                    <h1 className="text-6xl md:text-7xl font-bold text-foreground drop-shadow-lg tracking-tight font-display">Leistung</h1>
                 </div>
             </div>
 
@@ -37,13 +37,13 @@ const Pricing = () => {
                     </div>
                     <div>
                         <h2 className="text-3xl md:text-4xl font-bold mb-6 text-primary font-display leading-tight">
-                            Diverse services and innovative tools for real estate projects
+                            Vielfältige Dienstleistungen und innovative Tools für Immobilienprojekte
                         </h2>
                         <p className="text-muted-foreground mb-8 text-lg leading-relaxed">
-                            EarlyBuild supports real estate developers, investors, and municipalities with digital solutions for successful project development. Our approach connects comprehensive data analysis, innovative generative design, and human expertise with state-of-the-art technology such as Building Information Modeling (BIM). We offer holistic modules, generative design, and artificial intelligence APIs.
+                            EarlyBuild unterstützt Immobilienentwickler, Investoren und Kommunen mit digitalen Lösungen für eine erfolgreiche Projektentwicklung. Unser Ansatz verbindet umfassende Datenanalyse, innovatives generatives Design und menschliche Expertise mit modernster Technologie wie Building Information Modeling (BIM). Wir bieten ganzheitliche Module, generatives Design und APIs für künstliche Intelligenz.
                         </p>
                         <h3 className="text-2xl font-bold text-secondary font-display">
-                            All location data immediately available
+                            Alle Standortdaten sofort verfügbar
                         </h3>
                     </div>
                 </div>
@@ -53,23 +53,23 @@ const Pricing = () => {
             <section className="py-16 px-6 md:px-12 bg-background">
                 <div className="max-w-4xl mx-auto">
                     <p className="text-secondary font-medium mb-2 text-sm uppercase tracking-wider">
-                        insights | building mass | generative layouts | construction costs | using AI | 3D volumes | coherent urban planning | real estate data | BIM | efficiency gains | planning teams
+                        Einblicke | Gebäudemasse | generative Layouts | Baukosten | KI-Nutzung | 3D-Volumen | kohärente Stadtplanung | Immobiliendaten | BIM | Effizienzgewinne | Planungsteams
                     </p>
                     <p className="text-primary font-medium mb-8 text-sm uppercase tracking-wider">
-                        smart cities | CO2 reduction | location identification | macro location | micro location | social structure | data driven | automated valuation | return on invest | status upgrades | any time | anywhere
+                        Smart Cities | CO2-Reduzierung | Standortidentifikation | Makrolage | Mikrolage | Sozialstruktur | datengesteuert | automatisierte Bewertung | Return on Invest | Status-Upgrades | jederzeit | überall
                     </p>
 
                     <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground font-display">
-                        Seamless processes in planning and operation
+                        Nahtlose Prozesse in Planung und Betrieb
                     </h2>
                     <p className="text-muted-foreground mb-8 text-lg leading-relaxed">
-                        We provide real estate agents, construction companies, and project management firms with the insights they need. From feasibility studies to operational phases. Through our holistic building and knowledge management, we create structure in all planning phases. With instant access to location information, working drafts, digital building models, and artificial intelligence (AI), we enable precise planning, efficient implementation, and sustainable management.
+                        Wir liefern Immobilienmaklern, Bauunternehmen und Projektentwicklungsgesellschaften die Einblicke, die sie benötigen. Von Machbarkeitsstudien bis hin zu Betriebsphasen. Durch unser ganzheitliches Gebäude- und Wissensmanagement schaffen wir Struktur in allen Planungsphasen. Mit sofortigem Zugriff auf Standortinformationen, Arbeitsentwürfe, digitale Gebäudemodelle und künstliche Intelligenz (KI) ermöglichen wir präzise Planung, effiziente Umsetzung und nachhaltiges Management.
                     </p>
 
                     <div className="flex items-center gap-6">
-                        <span className="text-secondary font-bold text-lg">Book a consultation now and build smarter</span>
+                        <span className="text-secondary font-bold text-lg">Jetzt Beratungstermin buchen und intelligenter bauen</span>
                         <Button className="bg-primary hover:bg-primary/90 text-white rounded-full px-8 py-6 text-lg font-semibold">
-                            Click Here
+                            Hier klicken
                         </Button>
                     </div>
                 </div>
@@ -78,20 +78,20 @@ const Pricing = () => {
             {/* What We Offer Section */}
             <section className="py-20 px-6 md:px-12 bg-muted/30">
                 <div className="max-w-7xl mx-auto">
-                    <h2 className="text-4xl font-bold mb-12 text-foreground font-display">What we offer</h2>
+                    <h2 className="text-4xl font-bold mb-12 text-foreground font-display">Was wir bieten</h2>
 
                     <div className="grid md:grid-cols-2 gap-16">
                         {/* Solutions */}
                         <div>
-                            <h3 className="text-xl font-bold text-secondary mb-6 uppercase tracking-wide">Our solutions at a glance</h3>
+                            <h3 className="text-xl font-bold text-secondary mb-6 uppercase tracking-wide">Unsere Lösungen auf einen Blick</h3>
                             <ul className="space-y-4">
                                 {[
-                                    "Data solutions and environment for seamless high-resolution BIM models, machine learning support for detection and classification.",
-                                    "Consulting and strategy services with extensive analyses of market and location data for assessments and future viability from concept logic to business models and implementation sales and marketing of real estate.",
-                                    "Use our digital building models API in preliminary stages and engineering building services in planning and integrated planning in environment and context. Drawings, cost forecasts and yield calculation. True intelligence, you have running expert documentation.",
-                                    "Product development and Innovation: Generative design for design freedom, variant creation and strategic optimization based on AI-calculations. Digital twins, visualizations, smart city and urban context.",
-                                    "AI & Performance and AI prototypes: Agile development of AI models for time series analysis, algorithms and smart city solutions via cloud computing. Use data produced for risk assessment, benchmark and predictive maintenance.",
-                                    "Sustainability Strategies for sustainability, portfolio analyses and optimization with respect to analysis of health cycles for new quality criteria in management."
+                                    "Datenlösungen und Umgebung für nahtlose, hochauflösende BIM-Modelle, Machine-Learning-Support für Erkennung und Klassifizierung.",
+                                    "Beratungs- und Strategiedienstleistungen mit umfangreichen Analysen von Markt- und Standortdaten für Bewertungen und Zukunftsfähigkeit von der Konzeptlogik bis zu Geschäftsmodellen und Immobilienvertrieb und -marketing.",
+                                    "Nutzen Sie unsere digitale Gebäudemodelle-API in Vorphasen und technischer Gebäudeausrüstung in der Planung und integrierten Planung in Umwelt und Kontext.",
+                                    "Produktentwicklung und Innovation: Generatives Design für Gestaltungsfreiheit, Variantenbildung und strategische Optimierung basierend auf KI-Berechnungen. Digitale Zwillinge, Visualisierungen, Smart City und urbaner Kontext.",
+                                    "KI & Performance und KI-Prototypen: Agile Entwicklung von KI-Modellen für Zeitreihenanalysen, Algorithmen und Smart-City-Lösungen via Cloud Computing. Datennutzung für Risikobewertung, Benchmarking und vorausschauende Wartung.",
+                                    "Nachhaltigkeitsstrategien für Nachhaltigkeit, Portfolioanalysen und Optimierung hinsichtlich der Analyse von Gesundheitszyklen für neue Qualitätskriterien im Management."
                                 ].map((item, i) => (
                                     <li key={i} className="flex gap-3">
                                         <div className="mt-1 w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center shrink-0">
@@ -105,14 +105,14 @@ const Pricing = () => {
 
                         {/* Advantages */}
                         <div>
-                            <h3 className="text-xl font-bold text-secondary mb-6 uppercase tracking-wide">Your advantages</h3>
+                            <h3 className="text-xl font-bold text-secondary mb-6 uppercase tracking-wide">Ihre Vorteile</h3>
                             <ul className="space-y-4">
                                 {[
-                                    "Faster decision making & better results",
-                                    "Increased planning certainty through BIM and data documentation",
-                                    "Efficient, cost-effective and faster processes",
-                                    "Sustainable construction real estate projects",
-                                    "Expanding your competitiveness through digitalization and AI"
+                                    "Schnellere Entscheidungsfindung & bessere Ergebnisse",
+                                    "Erhöhte Planungssicherheit durch BIM und Datendokumentation",
+                                    "Effiziente, kostengünstige und schnellere Prozesse",
+                                    "Nachhaltige Bau- und Immobilienprojekte",
+                                    "Ausbau Ihrer Wettbewerbsfähigkeit durch Digitalisierung und KI"
                                 ].map((item, i) => (
                                     <li key={i} className="flex gap-3 items-center">
                                         <div className="w-6 h-6 rounded-full bg-primary/20 flex items-center justify-center shrink-0">
@@ -131,7 +131,7 @@ const Pricing = () => {
             <section className="py-20 px-6 md:px-12 bg-background">
                 <div className="max-w-7xl mx-auto">
                     <h2 className="text-2xl md:text-3xl font-bold text-center text-primary mb-12">
-                        Our competitive pricing enables horizontal scaling in the market.
+                        Unsere wettbewerbsfähigen Preise ermöglichen eine horizontale Skalierung im Markt.
                     </h2>
 
                     <div className="grid md:grid-cols-3 gap-8">
@@ -140,13 +140,13 @@ const Pricing = () => {
                             <h3 className="text-lg font-medium text-muted-foreground mb-2 uppercase">DATAFLAT API</h3>
                             <div className="mb-6">
                                 <span className="text-5xl font-bold">3.950 €</span>
-                                <span className="text-sm text-muted-foreground ml-2">/ MTH</span>
+                                <span className="text-sm text-muted-foreground ml-2">/ MTL</span>
                             </div>
                             <p className="text-sm text-muted-foreground mb-8 min-h-[60px]">
-                                Platform-as-a-Service (PaaS) for comprehensive access to our database and real estate data.
+                                Platform-as-a-Service (PaaS) für umfassenden Zugriff auf unsere Datenbank und Immobiliendaten.
                             </p>
                             <div className="mt-auto space-y-3">
-                                {["Data validation", "Global connectivity", "Custom reports"].map((feat, i) => (
+                                {["Datenvalidierung", "Globale Konnektivität", "Benutzerdefinierte Berichte"].map((feat, i) => (
                                     <div key={i} className="flex items-center gap-3 text-sm">
                                         <div className="w-2 h-2 bg-secondary rounded-full"></div>
                                         <span>{feat}</span>
@@ -160,14 +160,14 @@ const Pricing = () => {
                             <div className="absolute top-0 right-0 bg-secondary w-16 h-16 blur-2xl opacity-20"></div>
                             <h3 className="text-lg font-medium text-muted-foreground mb-2 uppercase">TRUEILIGENCE</h3>
                             <div className="mb-6">
-                                <span className="text-5xl font-bold">1,950 €</span>
-                                <span className="text-sm text-muted-foreground ml-2">/ MTH</span>
+                                <span className="text-5xl font-bold">1.950 €</span>
+                                <span className="text-sm text-muted-foreground ml-2">/ MTL</span>
                             </div>
                             <p className="text-sm text-muted-foreground mb-8 min-h-[60px]">
-                                Our core product for location validation and data analysis in real estate development.
+                                Unser Kernprodukt für Standortvalidierung und Datenanalyse in der Immobilienentwicklung.
                             </p>
                             <div className="mt-auto space-y-3">
-                                {["Execution time", "Market data", "AI-based analysis"].map((feat, i) => (
+                                {["Ausführungszeit", "Markt-Daten", "KI-basierte Analyse"].map((feat, i) => (
                                     <div key={i} className="flex items-center gap-3 text-sm">
                                         <div className="w-2 h-2 bg-secondary rounded-full"></div>
                                         <span>{feat}</span>
@@ -181,13 +181,13 @@ const Pricing = () => {
                             <h3 className="text-lg font-medium text-muted-foreground mb-2 uppercase">INTELLIGENT DESIGN</h3>
                             <div className="mb-6">
                                 <span className="text-5xl font-bold">5.950 €</span>
-                                <span className="text-sm text-muted-foreground ml-2">/ MTH</span>
+                                <span className="text-sm text-muted-foreground ml-2">/ MTL</span>
                             </div>
                             <p className="text-sm text-muted-foreground mb-8 min-h-[60px]">
-                                Detailed services for feasibility studies and performance calculations via digital building models.
+                                Detaillierte Dienstleistungen für Machbarkeitsstudien und Wirtschaftlichkeitsberechnungen über digitale Gebäudemodelle.
                             </p>
                             <div className="mt-auto space-y-3">
-                                {["Early stage planning", "Performance check", "Smart Buildings"].map((feat, i) => (
+                                {["Frühphasenplanung", "Leistungscheck", "Smart Buildings"].map((feat, i) => (
                                     <div key={i} className="flex items-center gap-3 text-sm">
                                         <div className="w-2 h-2 bg-secondary rounded-full"></div>
                                         <span>{feat}</span>
@@ -198,7 +198,7 @@ const Pricing = () => {
                     </div>
 
                     <p className="text-center text-muted-foreground mt-12 max-w-4xl mx-auto text-lg">
-                        Furthermore, we offer 3D visualizations, sustainability strategies for existing and new buildings, and innovative smart city solutions that create transparency and improve decision-making. With our innovative tools, we optimize your processes, reduce risks and increase the efficiency of your project development – from the initial concept to building operation.
+                        Darüber hinaus bieten wir 3D-Visualisierungen, Nachhaltigkeitsstrategien für Bestands- und Neubauten sowie innovative Smart-City-Lösungen, die Transparenz schaffen und die Entscheidungsfindung verbessern. Mit unseren innovativen Tools optimieren wir Ihre Prozesse, reduzieren Risiken und steigern die Effizienz Ihrer Projektentwicklung – vom ersten Konzept bis zum Gebäudebetrieb.
                     </p>
                 </div>
             </section>
@@ -215,9 +215,9 @@ const Pricing = () => {
                         />
                     </div>
                     <div className="text-foreground">
-                        <h2 className="text-5xl font-bold mb-6 font-display">Let's get started together.</h2>
+                        <h2 className="text-5xl font-bold mb-6 font-display">Lassen Sie uns gemeinsam beginnen.</h2>
                         <p className="text-muted-foreground mb-8 leading-relaxed">
-                            If you want to create real value, you need reliable resources that make the process easier, faster and more predictable. With our digital processes and innovative technology, we support you – from project development to building operation.
+                            Wer echten Wert schaffen will, braucht zuverlässige Ressourcen, die den Prozess einfacher, schneller und berechenbarer machen. Mit unseren digitalen Prozessen und innovativer Technologie unterstützen wir Sie – von der Projektentwicklung bis zum Gebäudebetrieb.
                         </p>
                     </div>
                 </div>
@@ -227,8 +227,8 @@ const Pricing = () => {
             <section className="py-24 px-6 md:px-12 bg-gradient-to-br from-background to-muted/20 relative">
                 <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-start">
                     <div>
-                        <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-display">Let's start a project together! Book a consultation now.</h2>
-                        <p className="text-muted-foreground text-lg">To lead the real estate market, you need a vision and possibilities to grow. We assist our clients in achieving real business results.</p>
+                        <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4 font-display">Lassen Sie uns gemeinsam ein Projekt starten! Buchen Sie jetzt eine Beratung.</h2>
+                        <p className="text-muted-foreground text-lg">Um den Immobilienmarkt anzuführen, brauchen Sie eine Vision und Möglichkeiten zu wachsen. Wir unterstützen unsere Kunden dabei, echte Geschäftsergebnisse zu erzielen.</p>
                         <div className="flex gap-4 mt-8">
                             <div className="w-10 h-10 bg-muted-foreground/20 rounded flex items-center justify-center text-foreground font-bold">f</div>
                             <div className="w-10 h-10 bg-muted-foreground/20 rounded flex items-center justify-center text-foreground font-bold">in</div>
@@ -239,16 +239,16 @@ const Pricing = () => {
                     <div className="bg-card/50 backdrop-blur-sm p-8 rounded-2xl border border-border shadow-xl">
                         <form className="space-y-4">
                             <div className="grid grid-cols-2 gap-4">
-                                <input type="text" placeholder="First Name *" className="w-full p-3 rounded-lg bg-muted border-none outline-none focus:ring-1 focus:ring-secondary placeholder:text-muted-foreground/50 text-foreground" />
-                                <input type="text" placeholder="Last Name *" className="w-full p-3 rounded-lg bg-muted border-none outline-none focus:ring-1 focus:ring-secondary placeholder:text-muted-foreground/50 text-foreground" />
+                                <input type="text" placeholder="Vorname *" className="w-full p-3 rounded-lg bg-muted border-none outline-none focus:ring-1 focus:ring-secondary placeholder:text-muted-foreground/50 text-foreground" />
+                                <input type="text" placeholder="Nachname *" className="w-full p-3 rounded-lg bg-muted border-none outline-none focus:ring-1 focus:ring-secondary placeholder:text-muted-foreground/50 text-foreground" />
                             </div>
                             <div className="grid grid-cols-2 gap-4">
-                                <input type="text" placeholder="Phone Number *" className="w-full p-3 rounded-lg bg-muted border-none outline-none focus:ring-1 focus:ring-secondary placeholder:text-muted-foreground/50 text-foreground" />
-                                <input type="email" placeholder="Email *" className="w-full p-3 rounded-lg bg-muted border-none outline-none focus:ring-1 focus:ring-secondary placeholder:text-muted-foreground/50 text-foreground" />
+                                <input type="text" placeholder="Telefonnummer *" className="w-full p-3 rounded-lg bg-muted border-none outline-none focus:ring-1 focus:ring-secondary placeholder:text-muted-foreground/50 text-foreground" />
+                                <input type="email" placeholder="E-Mail *" className="w-full p-3 rounded-lg bg-muted border-none outline-none focus:ring-1 focus:ring-secondary placeholder:text-muted-foreground/50 text-foreground" />
                             </div>
-                            <textarea placeholder="Tell us about your project *" className="w-full p-3 rounded-lg bg-muted border-none outline-none focus:ring-1 focus:ring-secondary placeholder:text-muted-foreground/50 text-foreground h-32"></textarea>
+                            <textarea placeholder="Erzählen Sie uns von Ihrem Projekt *" className="w-full p-3 rounded-lg bg-muted border-none outline-none focus:ring-1 focus:ring-secondary placeholder:text-muted-foreground/50 text-foreground h-32"></textarea>
                             <Button className="bg-secondary hover:bg-secondary/90 text-white font-bold py-2 px-6 rounded-md">
-                                Send
+                                Senden
                             </Button>
                         </form>
                     </div>
