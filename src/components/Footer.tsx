@@ -11,7 +11,7 @@ const Footer = () => {
               early<span className="text-gradient">build</span>
             </a>
             <p className="mt-3 text-sm text-muted-foreground leading-relaxed">
-              AI-powered platform digitalizing project development in real estate.
+              B2B SaaS cloud platform for the digitalization of project development in the real estate industry. Development and distribution of software in construction and real estate.
             </p>
           </div>
 
