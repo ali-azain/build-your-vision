@@ -139,17 +139,17 @@ const AboutUs = () => {
                         {
                             name: "Dr. Manuel Muehlbauer",
                             role: "CEO & Founder",
-                            img: "/images/manuel.png",
+                            img: "/build-your-vision/images/manuel.png",
                         },
                         {
                             name: "Elsaeed Gamal",
                             role: "Co-Founder",
-                            img: "/images/elsaeed.png",
+                            img: "/build-your-vision/images/elsaeed.png",
                         },
                         {
                             name: "Murtaza Mustafa",
                             role: "Software Engineer",
-                            img: "/images/murtaza.png",
+                            img: "/build-your-vision/images/murtaza.png",
                         },
                     ].map((member, i) => (
                         <div key={i} className="flex flex-col items-center group">

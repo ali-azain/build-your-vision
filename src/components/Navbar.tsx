@@ -16,10 +16,10 @@ import { cn } from "@/lib/utils";
 import React from "react";
 
 const navLinks = [
-  { label: "Produkt", href: "/#product" },
+  { label: "Produkt", href: "/build-your-vision/#product" },
   { label: "Preise", href: "/pricing" },
-  { label: "Wie es funktioniert", href: "/#how-it-works" },
-  { label: "Fallstudien", href: "/#case-studies" },
+  { label: "Wie es funktioniert", href: "/build-your-vision/#how-it-works" },
+  { label: "Fallstudien", href: "/build-your-vision/#case-studies" },
   { label: "Über uns", href: "/about" },
   { label: "Kontakt", href: "/contact" },
 ];
@@ -74,16 +74,16 @@ const Navbar = () => {
                   <NavigationMenuTrigger className="bg-transparent">Produkt</NavigationMenuTrigger>
                   <NavigationMenuContent>
                     <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[1fr_1fr]">
-                      <ListItem href="/product" title="Produktübersicht">
+                      <ListItem href="/build-your-vision/product" title="Produktübersicht">
                         Verschaffen Sie sich einen Überblick über unsere Funktionen.
                       </ListItem>
-                      <ListItem href="/product#integrations" title="Integrationen">
+                      <ListItem href="/build-your-vision/product#integrations" title="Integrationen">
                         Verbinden Sie sich mit Ihren bevorzugten Tools.
                       </ListItem>
-                      <ListItem href="/product#templates" title="Vorlagen">
+                      <ListItem href="/build-your-vision/product#templates" title="Vorlagen">
                         Starten Sie Ihre Projekte mit vorgefertigten Vorlagen.
                       </ListItem>
-                      <ListItem href="/product#ai" title="KI">
+                      <ListItem href="/build-your-vision/product#ai" title="KI">
                         Nutzen Sie die Kraft der künstlichen Intelligenz.
                       </ListItem>
                     </ul>
@@ -92,7 +92,7 @@ const Navbar = () => {
 
                 {navLinks.filter(link => link.label !== "Product").map((link) => (
                   <NavigationMenuItem key={link.href}>
-                    {link.href.startsWith("/#") ? (
+                    {link.href.includes("#") ? (
                       <a
                         href={link.href}
                         className={cn(navigationMenuTriggerStyle(), "bg-transparent")}
@@ -136,14 +136,14 @@ const Navbar = () => {
             <div className="px-4 py-4 flex flex-col gap-3">
               <div className="font-medium px-2 py-2 text-foreground">Produkt</div>
               <div className="pl-4 border-l border-border/50 ml-2 space-y-2">
-                <a href="/product" onClick={handleLinkClick} className="block text-sm text-muted-foreground hover:text-foreground">Produktübersicht</a>
-                <a href="/product#integrations" onClick={handleLinkClick} className="block text-sm text-muted-foreground hover:text-foreground">Integrationen</a>
-                <a href="/product#templates" onClick={handleLinkClick} className="block text-sm text-muted-foreground hover:text-foreground">Vorlagen</a>
-                <a href="/product#ai" onClick={handleLinkClick} className="block text-sm text-muted-foreground hover:text-foreground">KI</a>
+                <a href="/build-your-vision/product" onClick={handleLinkClick} className="block text-sm text-muted-foreground hover:text-foreground">Produktübersicht</a>
+                <a href="/build-your-vision/product#integrations" onClick={handleLinkClick} className="block text-sm text-muted-foreground hover:text-foreground">Integrationen</a>
+                <a href="/build-your-vision/product#templates" onClick={handleLinkClick} className="block text-sm text-muted-foreground hover:text-foreground">Vorlagen</a>
+                <a href="/build-your-vision/product#ai" onClick={handleLinkClick} className="block text-sm text-muted-foreground hover:text-foreground">KI</a>
               </div>
 
               {navLinks.filter(link => link.label !== "Produkt").map((link) => (
-                link.href.startsWith("/#") ? (
+                link.href.includes("#") ? (
                   <a
                     key={link.href}
                     href={link.href}
